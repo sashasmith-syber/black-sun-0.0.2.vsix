@@ -1,0 +1,43 @@
+{
+  // Line length rule is often too strict, so we disable it
+  "MD013": false,
+
+  ## Headers should use ate style (## instead of underlines)
+  "MD018": true,
+
+  // Require a blank line before headings
+  "MD022": true,
+
+  // Fenced code blocks must have a language specified
+  "MD040": true,
+
+  // No multiple consecutive blank lines
+  "MD012": true,
+
+  // First line should be a top-level header
+  "MD001": true,
+
+  // Header levels should only increment by one level at a time
+  "MD002": true,
+
+  // First header should be h1
+  "MD003": true,
+
+  // Emphasis style should be consistent (asterisks)
+  "MD004": { "style": "*" },
+
+  // Lists should be consistent (use dashes)
+  "MD006": { "style": "-" },
+
+  // No trailing spaces
+  "MD009": true,
+
+  // Inline HTML is discouraged
+  "MD033": true,
+
+  // URLs should be properly formatted
+  "MD034": true,
+
+  // Code blocks should be fenced
+  "MD046": true
+}

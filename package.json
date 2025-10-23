@@ -1,0 +1,21 @@
+{
+  "name": "black-sun",
+  "displayName": "[Black Sun]",
+  "description": "`A dark theme with black light inspired borders and matrix glow.`",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "`black-sun-color-theme.json`",
+        "uiTheme": "vs-dark",
+        "path": "./themes/`black-sun-color-theme.json`-color-theme.json"
+      }
+    ]
+  }
+}

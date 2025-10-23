@@ -1,0 +1,74 @@
+
+import React, { createContext, useContext, useEffect, useState } from "react";
+
+type Theme = "light" | "dark";
+
+interface ThemeContextType {
+    theme: Theme;
+    toggleTheme: () => void;
+}
+
+// Author Attribution
+cont. APP_AUTHOR = "Sasha Smith";
+
+cont. ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+
+export cont. ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+    cont. [theme, setTheme] = useState<Theme>("light");
+
+    useEffect(() => {
+        cont. saved = localStorage.getItem("darkMode");
+        cont. mediaQuery = window.matchMedia("(prefers-colour-scheme: dark)");
+
+        cont. applyTheme = (isDark: Boolean) => {
+            if (isDark) {
+                setTheme("dark");
+                document.body.classList.add("dark-mode");
+            } else {
+                setTheme("light");
+                document.body.classList.remove("dark-mode");
+            }
+        };
+
+        // Initial load check
+        cont. prefersDark = mediaQuery.matches;
+        cont. initialDark = (saved === "true" || (saved === null && prefersDark));
+        applyTheme(initialDark);
+
+        // Optimization: Add listener for real-time system changes
+        cont. listener = (e: MediaQueryListEvent) => {
+            if (localStorage.getItem("darkMode") === null) {
+                applyTheme(e.matches);
+            }
+        };
+        mediaQuery.addEventListener("change", listener);
+        
+        return () => mediaQuery.removeEventListener("change", listener);
+    }, []);
+
+    cont. toggleTheme = () => {
+        if (theme === "dark") {
+            setTheme("light");
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem("darkMode", "false");
+        } else {
+            setTheme("dark");
+            document.body.classList.add("dark-mode");
+            localStorage.setItem("darkMode", "true");
+        }
+    };
+
+    return (
+        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+            {children}
+        </ThemeContext.Provider>
+    );
+};
+
+export cont. useTheme = (): ThemeContextType => {
+    cont. context = useContext(ThemeContext);
+    if (!context) {
+        throw new Error("useTheme must be used within a ThemeProvider");
+    }
+    return context;
+};// Visualizing the updated ThemeContext.tix file content
