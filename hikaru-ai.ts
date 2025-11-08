@@ -2,12 +2,7 @@
 import SpotifyWebApi from 'spotify-web-api-js';
 import process from 'process';
 
-const spotifyApi = new SpotifyWebApi({
-  clientId: process.env.SPOTIFY_CLIENT_ID,
-  clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
-  redirectUri: process.env.SPOTIFY_REDIRECT_URI,
-});
-
+const spotifyApi = new SpotifyWebApi
 export async function getRecommendations(seedTracks: string[], targetBpm = 122) {
   // Fetch access token via PKCE or server-side (secure in prod)
   const token = await getAccessToken();  // Impl: OAuth flow
