@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'HIKARU AI - Cyberpunk AI Platform',
-  description: 'AI-powered chat and music recommendations with a cyberpunk aesthetic. Powered by Grok AI and Spotify.',
-  keywords: ['AI', 'Grok', 'Spotify', 'Music', 'Chat', 'Cyberpunk', 'Next.js'],
+  title: 'Sasha Smith - AI Innovator & Developer Portfolio',
+  description: 'Portfolio of Sasha Smith: AI Innovator, Developer, and Creator of Persona AI Injection, SOUNDBLUEPRINT™©, and MusicGen Prompt Engineering solutions.',
+  keywords: ['Sasha Smith', 'AI Developer', 'Persona AI Injection', 'MusicGen', 'SOUNDBLUEPRINT', 'AI Music', 'Prompt Engineering', 'TypeScript', 'React', 'Portfolio'],
   authors: [{ name: 'Sasha Smith' }],
   openGraph: {
-    title: 'HIKARU AI - Cyberpunk AI Platform',
-    description: 'AI-powered chat and music recommendations',
+    title: 'Sasha Smith - AI Innovator & Developer',
+    description: 'Portfolio showcasing AI innovations, music technology, and cutting-edge software development',
     type: 'website',
   },
 }
