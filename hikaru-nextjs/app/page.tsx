@@ -71,7 +71,7 @@ export default function Home() {
                   MUSIC RECOMMENDATIONS
                 </h3>
                 <p className="text-bs-white/70 mb-4">
-                  Discover music based on BPM and mood. Create custom playlists powered by Spotify's recommendation engine.
+                  Discover music based on BPM and mood. Create custom playlists powered by Spotify&apos;s recommendation engine.
                 </p>
                 <div className="flex items-center justify-center gap-2 text-bs-green">
                   <span>EXPLORE MUSIC</span>
