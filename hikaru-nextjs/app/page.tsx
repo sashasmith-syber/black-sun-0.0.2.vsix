@@ -27,6 +27,12 @@ export default function Home() {
               >
                 Music
               </Link>
+              <Link 
+                href="/portfolio" 
+                className="px-4 py-2 border border-bs-yellow rounded hover:bg-bs-yellow hover:text-bs-black transition-all duration-300 hover:shadow-neon-yellow"
+              >
+                Portfolio
+              </Link>
             </nav>
           </div>
         </div>
