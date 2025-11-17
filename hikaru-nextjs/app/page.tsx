@@ -1,6 +1,10 @@
 import Link from 'next/link'
+import { PortfolioSection } from '@/components/features/PortfolioSection'
+import { getfeaturedProjects } from '@/lib/portfolio-data'
 
 export default function Home() {
+  const featuredProjects = getfeaturedProjects();
+
   return (
     <main className="min-h-screen flex flex-col">
       {/* Header */}
@@ -106,6 +110,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Portfolio Section */}
+      <PortfolioSection projects={featuredProjects} title="Developer Portfolio" />
 
       {/* Footer */}
       <footer className="border-t-2 border-bs-cyan bg-bs-black/90 backdrop-blur-sm py-8">

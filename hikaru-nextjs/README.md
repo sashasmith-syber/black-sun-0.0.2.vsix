@@ -10,6 +10,8 @@ A Next.js 15 web application featuring AI-powered chat and music recommendations
 
 - 🤖 **AI Chat Interface** - Powered by Grok AI (xAI)
 - 🎵 **Music Recommendations** - BPM-based recommendations via Spotify API
+- 🎯 **BPM Advisor** - Intelligent tempo recommendations by genre, mood, and activity
+- 💼 **Developer Portfolio** - Showcase of projects including Solène Dev Studio inspiration
 - 🎨 **Cyberpunk UI** - Neon glows, matrix effects, and terminal aesthetics
 - ⚡ **Lightning Fast** - Built with Next.js 15 App Router
 - 🔒 **Secure** - OAuth authentication and encrypted API calls
@@ -127,9 +129,20 @@ hikaru-nextjs/
 
 1. Navigate to `/music`
 2. Authenticate with Spotify
-3. Enter desired BPM (default: 122)
-4. Get personalized track recommendations
-5. Create playlists directly to your Spotify account
+3. Use the **BPM Advisor** to discover the perfect tempo:
+   - Browse by Genre (Hip Hop, House, Techno, etc.)
+   - Filter by Mood (energetic, relaxed, euphoric, etc.)
+   - Select by Activity (workout, studying, party, etc.)
+4. Enter desired BPM or use a recommended value
+5. Get personalized track recommendations
+6. Create playlists directly to your Spotify account
+
+### Developer Portfolio
+
+- View featured projects on the homepage
+- Includes inspiration from public projects like Solène Dev Studio
+- Browse projects by category (themes, web apps, libraries)
+- Direct links to GitHub repositories and live demos
 
 ## 🛠️ Development
 
