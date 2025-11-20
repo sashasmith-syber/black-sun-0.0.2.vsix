@@ -1,0 +1,1 @@
+{"buildCommand":"cd hikaru-nextjs && npm run build","outputDirectory":"hikaru-nextjs/.next","framework":"nextjs"}
