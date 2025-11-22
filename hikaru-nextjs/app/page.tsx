@@ -1,6 +1,10 @@
 import Link from 'next/link'
+import { PortfolioSection } from '@/components/features/PortfolioSection'
+import { getfeaturedProjects } from '@/lib/portfolio-data'
 
 export default function Home() {
+  const featuredProjects = getfeaturedProjects();
+
   return (
     <main className="min-h-screen flex flex-col">
       {/* Header */}
@@ -22,6 +26,12 @@ export default function Home() {
                 className="px-4 py-2 border border-bs-green rounded hover:bg-bs-green hover:text-bs-black transition-all duration-300 hover:shadow-neon-green"
               >
                 Music
+              </Link>
+              <Link 
+                href="/portfolio" 
+                className="px-4 py-2 border border-bs-yellow rounded hover:bg-bs-yellow hover:text-bs-black transition-all duration-300 hover:shadow-neon-yellow"
+              >
+                Portfolio
               </Link>
             </nav>
           </div>
@@ -106,6 +116,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Portfolio Section */}
+      <PortfolioSection projects={featuredProjects} title="Developer Portfolio" />
 
       {/* Footer */}
       <footer className="border-t-2 border-bs-cyan bg-bs-black/90 backdrop-blur-sm py-8">
