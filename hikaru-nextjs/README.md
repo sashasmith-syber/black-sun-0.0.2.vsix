@@ -1,27 +1,61 @@
-# 🤖 HIKARU AI - Cyberpunk AI Platform
+# 🤖 Sasha Smith - Developer Portfolio
 
-A Next.js 15 web application featuring AI-powered chat and music recommendations with a stunning cyberpunk aesthetic.
+A Next.js portfolio website showcasing AI innovations, music technology projects, and cutting-edge software development work.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-cyan)
-![Next.js](https://img.shields.io/badge/Next.js-15.0.0--rc.0-black)
+![Next.js](https://img.shields.io/badge/Next.js-14.2.0-black)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-## ✨ Features
+## ✨ About Sasha Smith
 
-- 🤖 **AI Chat Interface** - Powered by Grok AI (xAI)
-- 🎵 **Music Recommendations** - BPM-based recommendations via Spotify API
-- 🎨 **Cyberpunk UI** - Neon glows, matrix effects, and terminal aesthetics
-- ⚡ **Lightning Fast** - Built with Next.js 15 App Router
-- 🔒 **Secure** - OAuth authentication and encrypted API calls
-- 📱 **Responsive** - Mobile-first design with TailwindCSS
+AI Innovator and Full-Stack Developer specializing in:
+
+- 🎭 **Persona AI Injection** - Revolutionary approach to AI personality integration
+- 🎵 **MusicGen Experimentation** - Advanced prompt engineering for AI music generation
+- 🔷 **SOUNDBLUEPRINT™©** - Proprietary framework for AI-driven sound design
+- ⚡ **Persona-Driven Prompt Engines** - Custom AI systems for enhanced interactions
+
+## 🚀 Featured Projects
+
+### HIKARU AI
+Persona-Driven AI Agent & Prompt Engine with custom persona injection and real-time AI responses.
+
+### AURALITH AI
+Sound Architect featuring AI-powered music composition, MusicGen integration, and SOUNDBLUEPRINT™© framework.
+
+### CODEX PRIME
+Advanced Prompt Engine with sophisticated generation capabilities and multi-model support.
+
+### EXTRACTOR 1.0
+Image-Text Prompt Generator with visual analysis and AI-powered text generation.
+
+### MPC ATLAS AI
+Akai MPC Mentor providing interactive tutorials, AI-powered advice, and composition assistance.
+
+### BLACK SUN Theme
+Cyberpunk VS Code & Browser Theme Ecosystem with neon aesthetics and OLED optimization.
+
+## 🎨 Black Sun Theme
+
+This portfolio uses the **Black Sun** cyberpunk color palette:
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Black | `#080808` | Background |
+| Cyan | `#00ffff` | Primary accent, borders |
+| Green | `#00ff00` | Secondary accent, highlights |
+| Yellow | `#ffcc66` | Warnings, special text |
+| Blue | `#99ccff` | Links, info |
+| Red | `#ff0000` | Errors, alerts |
+| White | `#eeffff` | Text |
+| Gray | `#546E7A` | Muted text |
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
 - Node.js 18+ installed
-- Grok API key from [xAI](https://x.ai/)
-- Spotify Developer account and API credentials
+- npm or yarn package manager
 
 ### Installation
 
@@ -36,12 +70,12 @@ cd hikaru-nextjs
 npm install
 ```
 
-3. **Set up environment variables**
+3. **Set up environment variables** (optional for full features)
 ```bash
 cp .env.example .env.local
 ```
 
-Edit `.env.local` and add your API keys:
+Edit `.env.local` and add API keys if using chat/music features:
 ```env
 GROK_API_KEY=your_grok_api_key_here
 SPOTIFY_CLIENT_ID=your_spotify_client_id_here
@@ -58,21 +92,6 @@ npm run dev
 5. **Open your browser**
 Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🎨 Black Sun Theme
-
-This project uses the **Black Sun** cyberpunk color palette:
-
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Black | `#080808` | Background |
-| Cyan | `#00ffff` | Primary accent, borders |
-| Green | `#00ff00` | Secondary accent, highlights |
-| Yellow | `#ffcc66` | Warnings, special text |
-| Blue | `#99ccff` | Links, info |
-| Red | `#ff0000` | Errors, alerts |
-| White | `#eeffff` | Text |
-| Gray | `#546E7A` | Muted text |
-
 ## 📁 Project Structure
 
 ```
@@ -84,52 +103,16 @@ hikaru-nextjs/
 │   ├── chat/               # AI chat page
 │   ├── music/              # Music recommendations page
 │   ├── layout.tsx          # Root layout
-│   ├── page.tsx            # Landing page
+│   ├── page.tsx            # Portfolio landing page
 │   └── globals.css         # Global styles
 ├── components/              # React components
 │   ├── ui/                 # UI primitives
 │   ├── features/           # Feature components
 │   └── layout/             # Layout components
 ├── lib/                    # Utility functions
-│   ├── grok.ts            # Grok AI integration
-│   ├── spotify.ts         # Spotify API integration
-│   └── utils.ts           # Helper functions
-├── styles/                 # Additional styles
 ├── public/                 # Static assets
 └── package.json           # Dependencies
 ```
-
-## 🔧 Configuration
-
-### Grok AI Setup
-
-1. Sign up at [xAI](https://x.ai/)
-2. Generate an API key
-3. Add to `.env.local` as `GROK_API_KEY`
-
-### Spotify API Setup
-
-1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
-2. Create a new app
-3. Add redirect URI: `http://localhost:3000/api/spotify/auth`
-4. Copy Client ID and Client Secret to `.env.local`
-
-## 🎯 Usage
-
-### AI Chat
-
-1. Navigate to `/chat`
-2. Type your message in the input field
-3. Press "SEND" or hit Enter
-4. Receive AI-generated responses from Grok
-
-### Music Recommendations
-
-1. Navigate to `/music`
-2. Authenticate with Spotify
-3. Enter desired BPM (default: 122)
-4. Get personalized track recommendations
-5. Create playlists directly to your Spotify account
 
 ## 🛠️ Development
 
@@ -143,36 +126,24 @@ npm run lint     # Run ESLint
 npm run type-check # Run TypeScript type checking
 ```
 
-### Adding New Features
+## 🎯 Features
 
-1. Create components in `components/`
-2. Add API routes in `app/api/`
-3. Create pages in `app/`
-4. Update styles in `styles/` or `app/globals.css`
+### Portfolio Landing Page
+- Hero section with professional introduction
+- Areas of expertise showcase
+- Featured projects grid with detailed information
+- Contact section with links
+- Responsive design with cyberpunk aesthetics
 
-## 🎨 Customization
+### AI Chat Interface (Optional Feature)
+- Real-time AI chat powered by Grok
+- Cyberpunk-styled interface
+- Message history
 
-### Colors
-
-Edit `tailwind.config.js` to customize the color palette:
-
-```javascript
-colors: {
-  'bs-black': '#080808',
-  'bs-cyan': '#00ffff',
-  // Add your colors here
-}
-```
-
-### Animations
-
-Add custom animations in `tailwind.config.js`:
-
-```javascript
-animation: {
-  'your-animation': 'your-animation 2s ease-in-out infinite',
-}
-```
+### Music Recommendations (Optional Feature)
+- BPM-based track discovery
+- Spotify integration
+- Playlist creation
 
 ## 📦 Deployment
 
@@ -180,7 +151,7 @@ animation: {
 
 1. Push your code to GitHub
 2. Import project in [Vercel](https://vercel.com)
-3. Add environment variables
+3. Add environment variables (if using AI/music features)
 4. Deploy!
 
 ### Other Platforms
@@ -191,30 +162,14 @@ The app can be deployed to any platform that supports Next.js:
 - Railway
 - Render
 
-## 🔒 Security
+## 🔗 Links
 
-- API keys are stored in environment variables
-- Spotify tokens use HTTP-only cookies
-- All API calls are proxied through Next.js API routes
-- CORS is properly configured
-
-## 🐛 Troubleshooting
-
-### TypeScript Errors
-
-Run `npm install` to ensure all dependencies are installed.
-
-### API Errors
-
-- Check that all environment variables are set correctly
-- Verify API keys are valid
-- Check API rate limits
-
-### Spotify Authentication Issues
-
-- Ensure redirect URI matches exactly in Spotify Dashboard
-- Check that Client ID and Secret are correct
-- Verify scopes are properly configured
+- [GitHub Profile](https://github.com/sashasmith-syber)
+- [HIKARU AI](https://github.com/sashasmith-syber/HIKARU-AI)
+- [AURALITH AI](https://github.com/sashasmith-syber/AURALITH-AI)
+- [CODEX PRIME](https://github.com/sashasmith-syber/CODEX-PRIME)
+- [EXTRACTOR 1.0](https://github.com/sashasmith-syber/EXTRACTOR-1.0)
+- [MPC ATLAS AI](https://github.com/sashasmith-syber/MPC-ATLAS-AI)
 
 ## 📄 License
 
@@ -223,19 +178,16 @@ MIT License - see LICENSE file for details
 ## 👤 Author
 
 **Sasha Smith**
+- AI Innovator & Developer
+- Creator of Persona AI Injection concept
+- SOUNDBLUEPRINT™© Developer
+- MusicGen Prompt Engineering Expert
 
 ## 🙏 Acknowledgments
 
-- [Grok AI](https://x.ai/) - AI chat capabilities
-- [Spotify](https://spotify.com) - Music recommendations
 - [Next.js](https://nextjs.org/) - React framework
 - [TailwindCSS](https://tailwindcss.com/) - Styling
-
-## 🔗 Links
-
-- [Documentation](./docs)
-- [Black Sun Theme](../PERESELKA)
-- [Report Issues](https://github.com/your-repo/issues)
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
 
 ---
 
