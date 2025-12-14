@@ -75,8 +75,9 @@ The application will be available at: http://localhost:3000
    - Should receive AI-generated responses (requires Grok API key)
 
 3. **Music Page**: Navigate to http://localhost:3000/music
-   - Currently under development
-   - Will show "404 Not Found" until created
+   - Enter a BPM value (e.g., 122)
+   - Get AI-powered music recommendations (requires Spotify API credentials)
+   - Create playlists based on recommendations
 
 ## Troubleshooting
 
