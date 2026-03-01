@@ -212,7 +212,7 @@ export default function MusicPage() {
             <CardContent>
               <div className="text-gray-500 font-mono">
                 <p className="text-lg mb-2">No recommendations yet</p>
-                <p className="text-sm">Enter a BPM value and click "Get Recommendations"</p>
+                <p className="text-sm">Enter a BPM value and click &quot;Get Recommendations&quot;</p>
               </div>
             </CardContent>
           </Card>

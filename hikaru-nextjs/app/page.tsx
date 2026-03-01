@@ -12,6 +12,12 @@ export default function Home() {
             </h1>
             <nav className="flex gap-6">
               <Link 
+                href="/portfolio" 
+                className="px-4 py-2 border border-bs-yellow rounded hover:bg-bs-yellow hover:text-bs-black transition-all duration-300"
+              >
+                Portfolio
+              </Link>
+              <Link 
                 href="/chat" 
                 className="px-4 py-2 border border-bs-cyan rounded hover:bg-bs-cyan hover:text-bs-black transition-all duration-300 hover:shadow-neon-cyan"
               >
@@ -71,7 +77,7 @@ export default function Home() {
                   MUSIC RECOMMENDATIONS
                 </h3>
                 <p className="text-bs-white/70 mb-4">
-                  Discover music based on BPM and mood. Create custom playlists powered by Spotify's recommendation engine.
+                  Discover music based on BPM and mood. Create custom playlists powered by Spotify&apos;s recommendation engine.
                 </p>
                 <div className="flex items-center justify-center gap-2 text-bs-green">
                   <span>EXPLORE MUSIC</span>

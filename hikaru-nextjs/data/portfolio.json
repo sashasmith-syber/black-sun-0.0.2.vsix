@@ -1,0 +1,132 @@
+{
+  "profile": {
+    "name": "Sasha Smith",
+    "title": "AI Innovation Engineer & Cyberpunk Developer",
+    "email": "sasha@blacksun.dev",
+    "github": "https://github.com/sashasmith-syber",
+    "bio": "Building the future of AI-powered applications with a cyberpunk aesthetic. Specializing in persona-driven AI systems, music generation, and immersive digital experiences."
+  },
+  "expertise": [
+    {
+      "id": "persona-ai",
+      "title": "Persona AI Injection",
+      "description": "Revolutionary approach to AI character development using structured persona systems. Creates consistent, believable AI personalities across all interactions.",
+      "icon": "🎭"
+    },
+    {
+      "id": "musicgen",
+      "title": "MusicGen Integration",
+      "description": "Advanced music generation systems that create original compositions. Leveraging cutting-edge AI models for creative audio synthesis.",
+      "icon": "🎵"
+    },
+    {
+      "id": "soundblueprint",
+      "title": "SOUNDBLUEPRINT Engine",
+      "description": "Proprietary music analysis and generation framework. Maps audio characteristics to create personalized musical experiences.",
+      "icon": "🎹"
+    },
+    {
+      "id": "prompt-engines",
+      "title": "Persona-Driven Prompt Engines",
+      "description": "Sophisticated prompt engineering systems that maintain character consistency. Transforms AI interactions into immersive experiences.",
+      "icon": "⚡"
+    }
+  ],
+  "projects": [
+    {
+      "id": "hikaru-ai",
+      "name": "HIKARU AI",
+      "description": "Cyberpunk AI platform featuring Grok AI chat and Spotify-powered music recommendations with a stunning neon aesthetic.",
+      "techStack": ["Next.js 15", "Grok AI", "Spotify API", "TailwindCSS"],
+      "githubLink": "https://github.com/sashasmith-syber/hikaru-ai",
+      "highlights": [
+        "Real-time AI conversations with Grok",
+        "BPM-based music recommendations",
+        "Cyberpunk UI with matrix effects",
+        "OAuth authentication integration"
+      ]
+    },
+    {
+      "id": "auralith-ai",
+      "name": "AURALITH AI",
+      "description": "Advanced music generation platform using persona-driven AI to create original compositions tailored to user preferences.",
+      "techStack": ["Python", "MusicGen", "TensorFlow", "FastAPI"],
+      "githubLink": "https://github.com/sashasmith-syber/auralith",
+      "highlights": [
+        "Custom music generation models",
+        "Persona-based composition styles",
+        "Real-time audio synthesis",
+        "Multi-genre support"
+      ]
+    },
+    {
+      "id": "codex-prime",
+      "name": "CODEX PRIME",
+      "description": "AI-powered code generation and analysis tool with cyberpunk interface. Helps developers write better code faster.",
+      "techStack": ["TypeScript", "OpenAI", "Monaco Editor", "Electron"],
+      "githubLink": "https://github.com/sashasmith-syber/codex-prime",
+      "highlights": [
+        "Intelligent code completion",
+        "Multi-language support",
+        "Real-time error detection",
+        "Custom persona assistants"
+      ]
+    },
+    {
+      "id": "extractor",
+      "name": "EXTRACTOR 1.0",
+      "description": "Data extraction and transformation toolkit with AI-powered pattern recognition. Streamlines data processing workflows.",
+      "techStack": ["Node.js", "Puppeteer", "Cheerio", "Redis"],
+      "githubLink": "https://github.com/sashasmith-syber/extractor",
+      "highlights": [
+        "Automated web scraping",
+        "AI-powered data extraction",
+        "Real-time processing pipelines",
+        "Export to multiple formats"
+      ]
+    },
+    {
+      "id": "mpc-atlas",
+      "name": "MPC ATLAS AI",
+      "description": "Music Production Controller with AI assistance. Smart sample selection and beat matching powered by machine learning.",
+      "techStack": ["Python", "PyTorch", "MIDI", "Audio Analysis"],
+      "githubLink": "https://github.com/sashasmith-syber/mpc-atlas",
+      "highlights": [
+        "AI-powered sample recommendations",
+        "Automatic beat detection",
+        "MIDI controller integration",
+        "Real-time audio processing"
+      ]
+    },
+    {
+      "id": "black-sun-theme",
+      "name": "BLACK SUN Theme",
+      "description": "Complete cyberpunk theme ecosystem for VS Code and web applications. Neon aesthetics with maximum functionality.",
+      "techStack": ["TypeScript", "CSS", "VS Code API", "TailwindCSS"],
+      "githubLink": "https://github.com/sashasmith-syber/black-sun-theme",
+      "highlights": [
+        "VS Code theme with 10K+ installs",
+        "Web component library",
+        "Animated matrix backgrounds",
+        "Customizable color schemes"
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/sashasmith-syber",
+      "icon": "github"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sashasmith_dev",
+      "icon": "twitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/sashasmith-dev",
+      "icon": "linkedin"
+    }
+  ]
+}
