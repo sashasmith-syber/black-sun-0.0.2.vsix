@@ -28,6 +28,7 @@ module.exports = {
       boxShadow: {
         'neon-cyan': '0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff',
         'neon-green': '0 0 10px #00ff00, 0 0 20px #00ff00',
+        'neon-yellow': '0 0 10px #ffcc66, 0 0 20px #ffcc66',
         'neon-cyan-sm': '0 0 5px #00ffff, 0 0 10px #00ffff',
         'neon-green-sm': '0 0 5px #00ff00, 0 0 10px #00ff00',
       },
